@@ -6,7 +6,7 @@ class Post
   end
 
   def artist_name
-    self.author ? self.artist.name : nil
+    self.author ? self.aurhoe.name : nil
   end
 
 end
