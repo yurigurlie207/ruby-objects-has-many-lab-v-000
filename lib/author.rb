@@ -13,8 +13,8 @@ class Author
     @@post_count += 1
   end
 
-  def songs
-    @songs
+  def posts
+    @posts
   end
 
   def add_post_by_name(name)
