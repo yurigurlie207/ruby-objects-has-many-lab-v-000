@@ -6,6 +6,6 @@ class Artist
     @songs = []
   end
 
-  def add_song_by
+  def add_song(song)
 
 end
