@@ -17,7 +17,7 @@ class Author
     @songs
   end
 
-  def add_song_by_name(name)
+  def add_post_by_name(name)
     post = Post.new(name)
     @songs << song
     song.artist = self
